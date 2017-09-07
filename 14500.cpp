@@ -31,7 +31,7 @@ int func(int x, int y) {
     }
     int ct = 0;
     for (int i = 0; i < 4; i++)
-        if (c[i] == -1) 
+        if (c[i] == -1)
             ct++;
     if (ct >= 2)return -1;
     for (int i = 0; i < 4; i++) {
